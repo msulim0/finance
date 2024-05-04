@@ -1,0 +1,54 @@
+{
+    "clientId": "4BocYVPHb4",
+    "name": "\u0421\u0443\u043b\u0456\u043c \u041c\u0430\u043a\u0441\u0438\u043c",
+    "webHookUrl": "",
+    "permissions": "psfj",
+    "accounts": [
+        {
+            "id": "iNq9wl3Iy1kLJFu3-_ymBA",
+            "sendId": "4BocYVPHb4",
+            "currencyCode": 980,
+            "cashbackType": "UAH",
+            "balance": 580129,
+            "creditLimit": 600000,
+            "maskedPan": [
+                "444111******8535"
+            ],
+            "type": "black",
+            "iban": "UA743220010000026202315155562"
+        },
+        {
+            "id": "NqnnPlrF0Qc5mFONR6c3MA",
+            "sendId": "6j5Ab3o4ii",
+            "currencyCode": 980,
+            "cashbackType": "UAH",
+            "balance": 1129784,
+            "creditLimit": 0,
+            "maskedPan": [
+                "444111******9371"
+            ],
+            "type": "white",
+            "iban": "UA693220010000026207324558274"
+        },
+        {
+            "id": "m_2E2gobpSX8tZsC-tiUXg",
+            "sendId": "",
+            "currencyCode": 980,
+            "balance": 0,
+            "creditLimit": 0,
+            "maskedPan": [],
+            "type": "fop",
+            "iban": "UA363220010000026005340076909"
+        },
+        {
+            "id": "RV_N5MkBAlf7ChvVrf2g8w",
+            "sendId": "",
+            "currencyCode": 840,
+            "balance": 33746,
+            "creditLimit": 0,
+            "maskedPan": [],
+            "type": "fop",
+            "iban": "UA683220010000026002340072070"
+        }
+    ]
+}

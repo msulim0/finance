@@ -1,0 +1,44 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+# This file was generated using AI.
+
+title: Metrics for White Table
+model: white
+timeseries: date
+dimensions:
+  - label: Description
+    column: description
+    description: ""
+  - label: Card
+    column: card
+    description: ""
+measures:
+  - name: balance_whote
+    label: Balance White
+    expression: MIN(balance) FILTER(where card = 'white')
+    description: Balance of white card
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: balance_black
+    label: Balance Black
+    expression: MIN(balance - 6000) FILTER(where card = 'black')
+    description: Balance of black card
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: sum_of_trans_white
+    label: Sum of Transactions
+    expression: SUM(amount)
+    description: s
+    format_preset: humanize
+    valid_percent_of_total: false
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
